@@ -1,0 +1,60 @@
+//===========================================================================
+//
+// Zscript
+//
+//===========================================================================
+
+
+version "4.6"
+
+Class HERO  : DoomPlayer
+{
+     default {
+		 Player.DisplayName "NULL" ;
+		 Player.JumpZ 10.270 ;
+		 Player.StartItem "SFist";
+		 Player.WeaponSlot 1, "SFist", "Chainsaw";
+
+     }
+}
+
+Class MapMarker1 : MapMarker
+{
+Default{}
+  States {
+  Spawn:
+     MAPD A -1;
+    Stop;
+  }
+} 
+
+Class SFist : Fist  replaces Fist {
+	Default {
+				+WEAPON.NOALERT
+				+WEAPON.STAFF2_KICKBACK 
+	}	
+States
+	{
+  Deselect:
+	TNT1 AA 0 A_Lower;
+    PUNG A 1 A_Lower;
+    Goto Deselect+1;
+  Select:
+	TNT1 AA 0 A_Raise;
+    PUNG A 1 A_Raise;
+    Goto Select+1;
+	}
+	}
+	
+	Class flarelight : Actor
+{
+Default{
++NOGRAVITY
++FLOORCLIP
+}
+  States {
+  Spawn:
+     FLAR A -1 bright;
+    Stop;
+  }
+} 
