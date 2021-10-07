@@ -1,7 +1,0 @@
-#include "zcommon.acs"
-
-Script 1 OPEN
-{
-    SetAirControl(0.9);
-}
-

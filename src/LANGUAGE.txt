@@ -1,0 +1,21 @@
+//===========================================================================
+//
+// LANGUAGE
+//
+//===========================================================================
+
+
+// Here you can define responses and access them externally
+[enu default]
+QUITMSG1 = "The wind begins to calm...";
+QUITMSG2 = "It will become silent soon...";
+QUITMSG3 = "Everything is still now...";
+QUITMSG4 = "...";
+QUITMSG5 = "Null5";
+QUITMSG6 = "Null6";
+QUITMSG7 = "Null7";
+QUITMSG8 = "Null8";
+QUITMSG9 = "Null9"; // you could add more if you want just add a number to quitmsg
+STSTR_DQDON = "IGN mode ON";
+STSTR_NCON = "STOP CHEATING";
+STSTR_NCOFF = "I WON'T FORGET THIS";

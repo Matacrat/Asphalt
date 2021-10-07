@@ -1,4 +1,0 @@
-IWAD = "DOOM2.WAD"
-STARTUPTITLE = "NULL"
-STARTUPCOLORS = "000000","a8a8a8" //hex  text color,background
-STARTUPTYPE = "HEXEN"
