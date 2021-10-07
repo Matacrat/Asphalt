@@ -14,17 +14,17 @@ maps
 			resource0
 			{
 				type = 1;
-				location = "C:\\Users\\Mathew\\Documents\\GitHub\\Nanowadmo21\\src";
+				location = "C:\\Users\\Mathew\\Documents\\GitHub\\Improv2\\src";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
 			}
 		}
-		defaultfloortexture = "GRASS1";
-		defaultceiltexture = "F_SKY1";
-		defaulttoptexture = "ASHWALL4";
-		defaultwalltexture = "ASHWALL4";
-		defaultbottomtexture = "ASHWALL4";
+		defaultfloortexture = "RROCK03";
+		defaultceiltexture = "METAL";
+		defaulttoptexture = "CEIL5_2";
+		defaultwalltexture = "CEIL5_2";
+		defaultbottomtexture = "CEIL5_2";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -37,9 +37,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 70.24329f;
-		viewpositiony = 191.9815f;
-		viewscale = 0.3846147f;
+		viewpositionx = -781.0667f;
+		viewpositiony = 658.9216f;
+		viewscale = 0.8650362f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -50,10 +50,27 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 1;
+			gridsize = 16;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
+		}
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				controlsectorarea
+				{
+					usecustomtagrange = false;
+					outerleft = -1472;
+					outerright = -1408;
+					outertop = -384;
+					outerbottom = -448;
+				}
+			}
 		}
 		
 		reloadresourceprecommand
@@ -87,24 +104,53 @@ maps
 		fieldtypes
 		{
 			
+			linedef
+			{
+				alpha = 1;
+			}
+			
 			sidedef
 			{
 				offsetx_mid = 1;
 				offsety_mid = 1;
+				offsetx_bottom = 1;
+				offsetx_top = 1;
+				offsety_top = 1;
+				offsety_bottom = 1;
+				scaley_mid = 1;
+				scalex_top = 1;
 			}
 			
 			sector
 			{
-				xpanningceiling = 1;
-				ypanningceiling = 1;
-				rotationceiling = 17;
-				xscaleceiling = 1;
-				yscaleceiling = 1;
+				rotationfloor = 1;
 				xpanningfloor = 1;
 				ypanningfloor = 1;
-				rotationfloor = 17;
+				fadecolor = 0;
+				fogdensity = 0;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
 				xscalefloor = 1;
 				yscalefloor = 1;
+				lightcolor = 0;
+				floorglowcolor = 0;
+				damagetype = 2;
+				damageamount = 0;
+				floorglowheight = 1;
+				color_floor = 0;
+				ceilingglowcolor = 0;
+				ceilingglowheight = 1;
+				user_managed_3d_floor = 3;
+			}
+			
+			thing
+			{
+				gravity = 1;
+				health = 0;
+				alpha = 1;
 			}
 		}
 	}

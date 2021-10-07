@@ -3,9 +3,13 @@
 // SNDINFO
 //
 //===========================================================================
-
-bummer bummer
 WAIL WAIL
+absorb absorb
+ded ded
+flamsmal flamsmal
 
 $AMBIENT 1 WAIL POINT CONTINUOUS 1.0 1.0 1.0
 
+World/Bubbles	DSBUBBLE
+$attenuation World/Bubbles 4
+$volume World/Bubbles 0.5

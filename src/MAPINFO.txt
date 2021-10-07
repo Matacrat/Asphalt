@@ -9,38 +9,24 @@
 DoomEdNums
 {
   90 = MapMarker1
-  91 = flarelight
   92 = nullman
+97 = RedTorchCrackle
 }
 
 //------------------------------------------------------------------------------MAPS
-map null "NULL"
+map map01 "Asphalt"
 {
-	nointermission
+nointermission
 	   Par = 18
-	   next = "MAP02"
+	   next = "e1m0"
 	   author = "Matacrat"
 	   AirControl = 0.8
-	   sky1 = "sky1"
-	   Skybox = "sky1"
-
-}
-
-map map01 "Not Entryway"
-{
-	nointermission
-	   Par = 18
-	   next = "MAP02"
-	   author = "Matacrat"
-	   AirControl = 0.8
-	   Sky1 = "sky1"
+	   AllowMonsterTelefrags
 	   AllowJump
 	   AllowCrouch
 	   AllowFreelook
 	   CheckSwitchRange
-
-}
- 
+} 
 //------------------------------------------------------------------------------SKILLS
 clearskills
 
