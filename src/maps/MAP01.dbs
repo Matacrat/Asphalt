@@ -14,7 +14,7 @@ maps
 			resource0
 			{
 				type = 1;
-				location = "C:\\Users\\Mathew\\Documents\\GitHub\\Improv2\\src";
+				location = "C:\\Users\\Mathew\\Documents\\GitHub\\Nanowadmo21\\src";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -37,9 +37,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -781.0667f;
-		viewpositiony = 658.9216f;
-		viewscale = 0.8650362f;
+		viewpositionx = -639.5965f;
+		viewpositiony = -134.5241f;
+		viewscale = 1.005068f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -50,7 +50,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 16;
+			gridsize = 4;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -65,10 +65,18 @@ maps
 				controlsectorarea
 				{
 					usecustomtagrange = false;
-					outerleft = -1472;
-					outerright = -1408;
-					outertop = -384;
-					outerbottom = -448;
+					outerleft = -128;
+					outerright = -64;
+					outertop = -320;
+					outerbottom = -384;
+				}
+			}
+			
+			stairsectorbuilder
+			{
+				
+				prefabs
+				{
 				}
 			}
 		}
@@ -107,6 +115,7 @@ maps
 			linedef
 			{
 				alpha = 1;
+				arg0str = 2;
 			}
 			
 			sidedef
@@ -144,6 +153,7 @@ maps
 				ceilingglowcolor = 0;
 				ceilingglowheight = 1;
 				user_managed_3d_floor = 3;
+				leakiness = 0;
 			}
 			
 			thing
@@ -151,6 +161,32 @@ maps
 				gravity = 1;
 				health = 0;
 				alpha = 1;
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+				firstvisibleline = 22;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 2712;
+				firstvisibleline = 65;
+				activetab = true;
 			}
 		}
 	}

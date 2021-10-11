@@ -1,4 +1,4 @@
 IWAD = "DOOM2.WAD"
 STARTUPTITLE = "Nanowadmo Submission 2021"
-STARTUPCOLORS = "b8b8b8","000000" //hex  text color,background
-STARTUPTYPE = "HEXEN"
+STARTUPCOLORS = "#ff006e","#000000" //hex  text color,background
+STARTUPTYPE = "Doom"

@@ -1,0 +1,43 @@
+#include "zcommon.acs"
+
+int isdead = false;
+int gameover = false;
+
+script "gameover" DEATH{
+
+gameover = true;
+
+	while (gameover==true)
+	{
+		if (GetActorProperty(1,APROP_HEALTH) <= 0)
+        {
+			isdead = true;
+	    }
+		if (isdead == true && gameover == false)
+		{
+				gameover = true;
+				SetFont("smalltext");
+				hudmessage(s:"Your soul becomes part of the the void...", HUDMSG_PLAIN ,18 , CR_RED , 0.5 , 0.5 , 0.1);
+                delay(2142);
+                print(s:"Enjoying the void?");
+                delay(2142);
+                print(s:"Why are you still here?");
+                delay(2142);
+                print(s:"Wow! Secret Unlocked! Good Job!");
+                //play sound here
+                delay(2142);
+                print(s:"...");
+		}
+		if (isdead == true && GetActorProperty(1,APROP_HEALTH) > 0)
+			
+			{
+			
+			print(s:"or not whatever");
+            isdead = false;
+			
+			}
+		
+		delay(1);
+	}
+	
+}
