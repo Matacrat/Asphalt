@@ -16,9 +16,8 @@ DoomEdNums
 //------------------------------------------------------------------------------MAPS
 map map01 "Asphalt"
 {
-nointermission
-	   Par = 18
-	   next = "e1m0"
+	   Par = 372
+	   next = "map02"
 	   author = "Matacrat"
 	   AirControl = 0.8
 	   AllowMonsterTelefrags
@@ -26,6 +25,9 @@ nointermission
 	   AllowCrouch
 	   AllowFreelook
 	   CheckSwitchRange
+	   MonsterFallingDamage
+	   UnFreezeSinglePlayerConversations
+	   EnableShadowmap	
 } 
 //------------------------------------------------------------------------------SKILLS
 
