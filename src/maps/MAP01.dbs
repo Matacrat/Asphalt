@@ -37,9 +37,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -891.0933f;
-		viewpositiony = -1808.657f;
-		viewscale = 0.1268039f;
+		viewpositionx = -245.7848f;
+		viewpositiony = -611.5831f;
+		viewscale = 0.1535515f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -50,7 +50,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 64;
+			gridsize = 16;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -65,8 +65,8 @@ maps
 				controlsectorarea
 				{
 					usecustomtagrange = false;
-					outerleft = -128;
-					outerright = -64;
+					outerleft = 512;
+					outerright = 576;
 					outertop = -320;
 					outerbottom = -384;
 				}
@@ -77,40 +77,6 @@ maps
 				
 				prefabs
 				{
-					
-					prefab1
-					{
-						name = "[Previous]";
-						numberofsectors = 1;
-						outervertexmultiplier = 1;
-						innervertexmultiplier = 1;
-						stairtype = 0;
-						sectordepth = 32;
-						spacing = 0;
-						frontside = true;
-						singlesectors = true;
-						distinctsectors = false;
-						singledirection = false;
-						distinctbaseheights = true;
-						flipping = 0;
-						numberofcontrolpoints = 1;
-						applyfloormod = true;
-						floormod = 0;
-						applyceilingmod = true;
-						ceilingmod = 0;
-						applyfloortexture = false;
-						floortexture = "";
-						applyceilingtexture = false;
-						ceilingtexture = "";
-						applyuppertexture = true;
-						uppertexture = "RROCK03";
-						upperunpegged = true;
-						applymiddletexture = false;
-						middletexture = "-";
-						applylowertexture = true;
-						lowertexture = "RROCK03";
-						lowerunpegged = true;
-					}
 				}
 			}
 		}
@@ -162,6 +128,7 @@ maps
 				offsety_bottom = 1;
 				scaley_mid = 1;
 				scalex_top = 1;
+				scalex_bottom = 1;
 			}
 			
 			sector
@@ -183,6 +150,7 @@ maps
 				damagetype = 2;
 				damageamount = 0;
 				floorglowheight = 1;
+				floorterrain = 2;
 				color_floor = 0;
 				ceilingglowcolor = 0;
 				ceilingglowheight = 1;
@@ -217,8 +185,8 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 2871;
-				firstvisibleline = 85;
+				caretposition = 1426;
+				firstvisibleline = 78;
 				activetab = true;
 			}
 		}

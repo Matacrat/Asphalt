@@ -16,7 +16,7 @@ DoomEdNums
 //------------------------------------------------------------------------------MAPS
 map map01 "Asphalt"
 {
-	   Par = 372
+	   Par = 420
 	   next = "map02"
 	   author = "Matacrat"
 	   AirControl = 0.8
