@@ -19,20 +19,10 @@ Class HERO  : DoomPlayer
      }
 }
 
-Class MapMarker1 : MapMarker
-{
-Default{}
-  States {
-  Spawn:
-     MAPD A -1;
-    Stop;
-  }
-} 
 
 Class SFist : Fist  replaces Fist {
 	Default {
 				+WEAPON.NOALERT
-				+WEAPON.STAFF2_KICKBACK 
 	}	
 States
 	{
@@ -63,17 +53,3 @@ class RedTorchCrackle : RedTorch
 		Loop;
 	}
 }
-
-Class nullman : Actor
-{
-Default{
-Radius 11;
-Height 64;
-+SOLID
-}
-  States {
-  Spawn:
-     NULL A -1;
-    Stop;
-  }
-} 

@@ -4,20 +4,25 @@
 //
 //===========================================================================
 
-
+//------------------------------------------------------------------------------CLUSTERS
+cluster 1
+{
+	flat = BLACK
+	music = NULL
+ 	exittext = "PUT SHIT HERE"
+}
 //------------------------------------------------------------------------------EDNUMS
 DoomEdNums
 {
-  90 = MapMarker1
-  92 = nullman
 97 = RedTorchCrackle
 }
 
 //------------------------------------------------------------------------------MAPS
 map map01 "Asphalt"
 {
+	   Cluster = 1
 	   Par = 420
-	   next = "map02"
+	   next = "endgame"
 	   author = "Matacrat"
 	   AirControl = 0.8
 	   AllowMonsterTelefrags
@@ -36,7 +41,6 @@ GameInfo
 {
 	
 	BorderFlat = "BLACK"
-	QuitSound = "bummer"
 	PlayerClasses = "HERO"
 	QuitMessages = "You want to quit the Nanowadmo?","You want to quit the Nanowadmo?", "You want to quit the Nanowomo?", "You want to quit the Nanuwumo?", "You want to quit the Nyanowadmo?", "You want to quit the Nanorawrmo?", "You want to quit the Nyeanowadmo?","Y-You want to quit the N-Naniwadmo?!?"
 
