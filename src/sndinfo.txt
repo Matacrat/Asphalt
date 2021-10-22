@@ -6,8 +6,11 @@
 absorb absorb
 ded ded
 flamsmal flamsmal
+WAIL WAIL
 
 
 World/Bubbles	DSBUBBLE
 $attenuation World/Bubbles 4
 $volume World/Bubbles 0.5
+
+$ambient 1 WAIL point continuous 1.0

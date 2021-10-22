@@ -7,9 +7,21 @@
 //------------------------------------------------------------------------------CLUSTERS
 cluster 1
 {
-	flat = BLACK
-	music = NULL
- 	exittext = "PUT SHIT HERE"
+	flat = SNOW
+ 	exittext = 
+"''I guess i found a way out, I think...''",
+" ",
+"''...''",
+" ",
+"''Where the hell am I anyway?''",
+" ",
+"What he doesn't know is that he has been cast into the shadow realm.",
+"Doomed to sit there until he's needed again...",
+" ",
+"Have fun with Adrian Shepard...",
+" ",
+"Made for the Nanowadmo mapping contest 201- I mean 2021.",
+"Thanks for playing JOE- I mean YOU."
 }
 //------------------------------------------------------------------------------EDNUMS
 DoomEdNums
@@ -21,8 +33,8 @@ DoomEdNums
 map map01 "Asphalt"
 {
 	   Cluster = 1
-	   Par = 420
-	   next = "endgame"
+	   Par = 450
+	   next = "endgameC"
 	   author = "Matacrat"
 	   AirControl = 0.8
 	   AllowMonsterTelefrags
@@ -40,7 +52,6 @@ map map01 "Asphalt"
 GameInfo
 {
 	
-	BorderFlat = "BLACK"
 	PlayerClasses = "HERO"
 	QuitMessages = "You want to quit the Nanowadmo?","You want to quit the Nanowadmo?", "You want to quit the Nanowomo?", "You want to quit the Nanuwumo?", "You want to quit the Nyanowadmo?", "You want to quit the Nanorawrmo?", "You want to quit the Nyeanowadmo?","Y-You want to quit the N-Naniwadmo?!?"
 

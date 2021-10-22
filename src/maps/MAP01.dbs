@@ -20,7 +20,7 @@ maps
 				notfortesting = 0;
 			}
 		}
-		defaultfloortexture = "SNOW";
+		defaultfloortexture = "RROCK03";
 		defaultceiltexture = "METAL";
 		defaulttoptexture = "CEIL5_2";
 		defaultwalltexture = "CEIL5_2";
@@ -37,9 +37,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 449.2253f;
-		viewpositiony = -700.0635f;
-		viewscale = 0.2802128f;
+		viewpositionx = 237.7569f;
+		viewpositiony = -1791.199f;
+		viewscale = 0.2155483f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -50,7 +50,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 8;
+			gridsize = 4;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -65,8 +65,8 @@ maps
 				controlsectorarea
 				{
 					usecustomtagrange = false;
-					outerleft = 512;
-					outerright = 576;
+					outerleft = 768;
+					outerright = 832;
 					outertop = -320;
 					outerbottom = -384;
 				}
@@ -137,7 +137,6 @@ maps
 				xpanningfloor = 1;
 				ypanningfloor = 1;
 				fadecolor = 0;
-				fogdensity = 0;
 				xpanningceiling = 1;
 				ypanningceiling = 1;
 				rotationceiling = 1;
@@ -145,20 +144,22 @@ maps
 				yscaleceiling = 1;
 				xscalefloor = 1;
 				yscalefloor = 1;
+				fogdensity = 0;
 				lightcolor = 0;
 				floorglowcolor = 0;
 				damagetype = 2;
 				damageamount = 0;
 				floorglowheight = 1;
 				floorterrain = 2;
+				color_ceiling = 0;
+				color_walltop = 0;
 				color_floor = 0;
 				color_wallbottom = 0;
 				ceilingglowcolor = 0;
 				ceilingglowheight = 1;
 				color_sprites = 0;
-				color_walltop = 0;
-				color_ceiling = 0;
 				user_managed_3d_floor = 3;
+				desaturation = 1;
 			}
 			
 			thing
@@ -180,7 +181,7 @@ maps
 				tabtype = 0;
 				scripttype = 18;
 				caretposition = 22;
-				activetab = true;
+				firstvisibleline = 17;
 			}
 			
 			document1
@@ -190,7 +191,9 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 73;
+				caretposition = 2897;
+				firstvisibleline = 107;
+				activetab = true;
 			}
 		}
 	}

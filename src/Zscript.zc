@@ -10,11 +10,9 @@ version "4.6"
 Class HERO  : DoomPlayer
 {
      default {
-		 Player.DisplayName "NULL" ;
 		 Player.JumpZ 10.270 ;
 		 Player.StartItem "SFist";
 		 Player.WeaponSlot 1, "SFist", "Chainsaw";
-		 Player.Portrait "MAND";
 
      }
 }
