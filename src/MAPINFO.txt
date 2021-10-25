@@ -21,7 +21,10 @@ cluster 1
 "Have fun with Adrian Shepard...",
 " ",
 "Made for the Nanowadmo mapping contest 201- I mean 2021.",
-"Thanks for playing JOE- I mean YOU."
+"Thanks for playing JOE- I mean YOU.",
+" ",
+" ",
+"Special thanks to Thingie! for setting the par time!"
 }
 //------------------------------------------------------------------------------EDNUMS
 DoomEdNums
@@ -33,7 +36,7 @@ DoomEdNums
 map map01 "Asphalt"
 {
 	   Cluster = 1
-	   Par = 450
+	   Par = 210
 	   next = "endgameC"
 	   author = "Matacrat"
 	   AirControl = 0.8

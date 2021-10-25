@@ -37,9 +37,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 237.7569f;
-		viewpositiony = -1791.199f;
-		viewscale = 0.2155483f;
+		viewpositionx = 1853.892f;
+		viewpositiony = -501.7086f;
+		viewscale = 0.1554249f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -50,7 +50,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 4;
+			gridsize = 8;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -65,10 +65,10 @@ maps
 				controlsectorarea
 				{
 					usecustomtagrange = false;
-					outerleft = 768;
-					outerright = 832;
-					outertop = -320;
-					outerbottom = -384;
+					outerleft = 0;
+					outerright = 64;
+					outertop = 832;
+					outerbottom = 768;
 				}
 			}
 			
@@ -114,8 +114,8 @@ maps
 			
 			linedef
 			{
-				alpha = 1;
 				arg0str = 2;
+				alpha = 1;
 			}
 			
 			sidedef
@@ -151,6 +151,8 @@ maps
 				damageamount = 0;
 				floorglowheight = 1;
 				floorterrain = 2;
+				user_managed_3d_floor = 3;
+				desaturation = 1;
 				color_ceiling = 0;
 				color_walltop = 0;
 				color_floor = 0;
@@ -158,12 +160,11 @@ maps
 				ceilingglowcolor = 0;
 				ceilingglowheight = 1;
 				color_sprites = 0;
-				user_managed_3d_floor = 3;
-				desaturation = 1;
 			}
 			
 			thing
 			{
+				arg0str = 2;
 				gravity = 1;
 				health = 0;
 				alpha = 1;
@@ -180,7 +181,7 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 18;
-				caretposition = 22;
+				caretposition = 120;
 				firstvisibleline = 17;
 			}
 			
@@ -191,8 +192,8 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 2897;
-				firstvisibleline = 107;
+				caretposition = 3766;
+				firstvisibleline = 148;
 				activetab = true;
 			}
 		}

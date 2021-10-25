@@ -7,6 +7,10 @@ absorb absorb
 ded ded
 flamsmal flamsmal
 WAIL WAIL
+vent vent
+buzz buzz
+under under
+warb warb
 
 
 World/Bubbles	DSBUBBLE
@@ -14,3 +18,11 @@ $attenuation World/Bubbles 4
 $volume World/Bubbles 0.5
 
 $ambient 1 WAIL point continuous 1.0
+
+$ambient 2 vent point continuous 1.0
+
+$ambient 3 buzz point continuous 1.0
+
+$ambient 4 under point continuous 1.0
+
+$ambient 5 warb point continuous 1.0
