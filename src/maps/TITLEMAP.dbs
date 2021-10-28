@@ -5,26 +5,17 @@ strictpatches = 0;
 maps
 {
 	
-	TITLEMAP
+	MAP01
 	{
 		
 		resources
 		{
-			
-			resource0
-			{
-				type = 1;
-				location = "C:\\Users\\Mathew\\Documents\\GitHub\\Improv2\\src";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-			}
 		}
-		defaultfloortexture = "FLAT19";
-		defaultceiltexture = "FLAT19";
-		defaulttoptexture = "FLAT19";
-		defaultwalltexture = "FLAT19";
-		defaultbottomtexture = "FLAT19";
+		defaultfloortexture = "RROCK03";
+		defaultceiltexture = "RROCK03";
+		defaulttoptexture = "CEIL5_2";
+		defaultwalltexture = "CEIL5_2";
+		defaultbottomtexture = "CEIL5_2";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -37,9 +28,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -198.43f;
-		viewpositiony = 1400.387f;
-		viewscale = 0.2958574f;
+		viewpositionx = 84.15165f;
+		viewpositiony = 503.1616f;
+		viewscale = 0.6499985f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -50,7 +41,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 32;
+			gridsize = 0.5;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -87,9 +78,39 @@ maps
 		fieldtypes
 		{
 			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsety_mid = 1;
+				offsetx_top = 1;
+				offsety_top = 1;
+				offsetx_bottom = 1;
+				offsety_bottom = 1;
+				scaley_mid = 1;
+				scalex_top = 1;
+			}
+			
 			sector
 			{
+				rotationfloor = 17;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
 				fadecolor = 0;
+				fogdensity = 0;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 17;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+				lightcolor = 0;
+				desaturation = 1;
+			}
+			
+			thing
+			{
+				gravity = 1;
 			}
 		}
 		
@@ -112,6 +133,7 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
+				caretposition = 10;
 				activetab = true;
 			}
 		}

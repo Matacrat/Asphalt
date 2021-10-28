@@ -1,3 +1,3 @@
-STARTUPTITLE = "Nanowadmo Submission 2021"
-STARTUPCOLORS = "#ff006e","#000000" //hex  text color,background
+STARTUPTITLE = "Asphalt"
+STARTUPCOLORS = "#cc0000","#292929" //hex  text color,background
 STARTUPTYPE = "Doom"

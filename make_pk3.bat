@@ -1,5 +1,5 @@
  @echo off
- set ProjName=NULL
+ set ProjName=Asphalt
  echo Ready to Start.
  
  echo Step 1: Packing
